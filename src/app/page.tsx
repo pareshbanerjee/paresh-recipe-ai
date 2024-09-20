@@ -48,11 +48,11 @@ export default function Home() {
             name="ingredients"
             required
             placeholder="Ingredient1, Ingredient2, Ingredient3,..etc"
-            className="border border-black  text-gray-1300 p-4 rounded-lg max-w-full w-full text-xl "
+            className="border border-black  text-gray-1300 p-6 rounded-lg max-w-lg w-full text-xl "
           />
           <button
             type="submit"
-            className="  text-white p-2 rounded-lg bg-blue-500   w-1/2 text-xl  "
+            className="  text-white p-2 rounded-lg bg-blue-500   w-1/2 text-3xl  "
           >
             Go
           </button>
