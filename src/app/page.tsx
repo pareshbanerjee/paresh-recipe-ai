@@ -31,7 +31,7 @@ export default function Home() {
           Meet Your Personal <span className=" text-green-600"> Recipe AI </span>
           <p className=" mt-10 font-medium   text-lg  max-w-prose text-gray-900 ">
             Simply type few ingredients using the format ingredient1,
-            ingredient2,..etc and Recipe AI will generate an all-new recipe on
+            ingredient2,..etc and add a cuisine if you want. Recipe AI will generate an all-new recipe on
             demand...
           </p>
         </h1>
