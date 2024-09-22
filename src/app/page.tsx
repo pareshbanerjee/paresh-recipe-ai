@@ -25,7 +25,13 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center  p-24  m-auto ">
+    <main className="flex min-h-screen flex-col items-center  p-24  m-auto "
+    style={{ backgroundImage: `url('/background.jpg'`, 
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      height: "100vh",  }} // Make sure the path is correct
+    >
       <div className=" pb-10 mx-auto text-center flex flex-col items-start -center max-w-3xl">
         <h1 className=" text-4xl  font-bold  text-gray-900 sm:text-6xl ">
           Meet Your Personal <span className=" text-green-600"> Recipe AI </span>
