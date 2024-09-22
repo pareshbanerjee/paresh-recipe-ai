@@ -47,7 +47,7 @@ export default function Home() {
             id="ingredients"
             name="ingredients"
             required
-            placeholder="Ingredient1, Ingredient2, Ingredient3,..etc"
+            placeholder="Ingredient1, Ingredient2, Ingredient3, Cuisine..etc"
             className="border border-black  text-gray-1300 p-4 rounded-lg max-w-full w-full text-xl "
           />
           <button
